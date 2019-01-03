@@ -1,1 +1,3 @@
-# mcmattgr.github.io
+# README.md for SDI Clarity Project
+
+

@@ -1,8 +1,6 @@
 /*---Styles.css
 --------------------------*/
 
-
-
 /*---Global Style
 --------------------------*/
 
@@ -17,10 +15,29 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 }
 
-.wrapper-home {
+.wrapper-container{
+	background: linear-gradient(to bottom, #2b3d5b 75%,#7c7c7c 75%,#7c7c7c 75%,#7c7c7c 75%);
+}
+
+
+.wrapper-inner {
     height: 700px;
-    background: linear-gradient(to bottom, #2b3d5b 75%,#7c7c7c 75%,#7c7c7c 75%,#7c7c7c 75%);
-    max-width: 1200px;
     margin: 0 auto;
+}
+
+.sdi-flex-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sdi-flex-grid-item {
+	height: 200px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 33.3333%;
+	flex-basis: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 

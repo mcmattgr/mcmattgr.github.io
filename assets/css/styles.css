@@ -19,8 +19,9 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 }
 
-h1.font-white{
-	text-align: center;
+h1.font-white {
+    text-align: center;
+    padding-top: 25px;
 }
 
 p.font-white{

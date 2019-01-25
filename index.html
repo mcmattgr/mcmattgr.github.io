@@ -7,10 +7,16 @@
   <title>SDI Clarity Project</title>
   <meta name="description" content="SDI Clarity Project">
   <meta name="author" content="Matt McLennan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="assets/css/styles.css">
   <!--Adding Rubik Font - Pulled from SDI's PDF Properties - Rubik Bold and Rubik Regular-->
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
 
 </head>
 
@@ -20,19 +26,51 @@
 <div class="wrapper-inner">
 <h1 id="">Two Types of Harrassment</h1>
 <span>Click and drag the employees to reveal more information</span>
+
 		<div class="sdi-flex-grid">
-		  <div class="sdi-flex-grid-item">One</div>
+
+		  <div class="sdi-flex-grid-item">
+		  	<div id="element1" style="padding:10px; width:100px;background-color:#eeeeee;">
+				Woman
+			</div>
+		  </div>
+
+		  <div class="sdi-flex-grid-item">
+		  	<div id="element2" style="padding:10px; width:100px; background-color:#ccc;">
+				Man
+			</div>
+		  </div>
+
 		</div>
-		<div class="sdi-flex-grid">
-		  <div class="sdi-flex-grid-item">One</div>
-		  <div class="sdi-flex-grid-item">Two</div>
-		  <div class="sdi-flex-grid-item">Three</div>
+
+		<div id="images" class="sdi-flex-grid">
+
+		  <div class="sdi-flex-grid-item">
+		  	<img class="element1" src="http://www.fillmurray.com/200/300" />
+		  </div>
+
+		  <div class="sdi-flex-grid-item">
+
+
+		  </div>
+
+		  <div class="sdi-flex-grid-item">
+		  	<img class="element2" src="http://www.fillmurray.com/g/200/300" />
+		  </div>
+
 		</div>
 </div>
-</div>div?
+</div>
 
 
 
 <script src="assets/js/scripts.js"></script>
 </body>
 </html>
+
+
+
+ 
+<div id="droppable" class="ui-widget-header">
+  <p>Drop here</p>
+</div>

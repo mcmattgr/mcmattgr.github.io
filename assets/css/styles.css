@@ -85,3 +85,7 @@ p.font-white{
 .sdi-hostile-work p {
 	color: #fff;
 }
+
+#draggable-characters{
+	margin-bottom: 100px;
+}

@@ -16,8 +16,6 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-
-
 </head>
 
 <body>
@@ -30,32 +28,58 @@
 		<div class="sdi-flex-grid">
 
 		  <div class="sdi-flex-grid-item">
-		  	<div id="element1" style="padding:10px; width:100px;background-color:#eeeeee;">
-				Woman
+		  	<div id="drag-woman">
+				<img src="assets/images/drag-woman.png">
 			</div>
 		  </div>
 
 		  <div class="sdi-flex-grid-item">
-		  	<div id="element2" style="padding:10px; width:100px; background-color:#ccc;">
-				Man
+		  	<div id="drag-man">
+				<img src="assets/images/drag-man.png">
 			</div>
 		  </div>
 
 		</div>
 
-		<div id="images" class="sdi-flex-grid">
-
+		<div id="drop-area-contain" class="sdi-flex-grid">
 		  <div class="sdi-flex-grid-item">
-		  	<img class="element1" src="http://www.fillmurray.com/200/300" />
+		  	<div class="quid-contain">
+			  	<img class="quid-empty" src="assets/images/quid-empty.png" />
+			  	<img style="display: none;" class="quid-with-man" src="assets/images/quid-withman.png" />
+			  	<img style="display: none;" class="quid-with-woman" src="assets/images/quid-withwoman.png" />
+			</div>
 		  </div>
 
 		  <div class="sdi-flex-grid-item">
+		  		<div class="sdi-quid-pro">
+		  			<h2>Quid Pro Quo</h2>
+		  			<p>
+	  				means &quot;something for something&quot; or &quot;this<br>
+	  				for that.&quot; Example: An employee must<br>
+	  				submit to a supervisor's sexually<br>
+	  				harrassing conduct in order to get<br>
+	  				promoted by the supervisor.
+		  			</p>
+		  		</div>
 
-
+		  		<div class="sdi-hostile-work">
+		  			<h2>Hostile Word<br>Environment</h2>
+		  			<p>
+		  			is demonstrated by severe or<br>
+		  			pervasive conduct that creates a<br>
+		  			work environment a reasonable<br>
+		  			person would consider intimidating,<br>
+		  			hostile, or abusive.
+		  			</p>
+		  		</div>
 		  </div>
 
 		  <div class="sdi-flex-grid-item">
-		  	<img class="element2" src="http://www.fillmurray.com/g/200/300" />
+		  	<div class="hostile-contain">
+			  	<img class="hostile-empty" src="assets/images/hostile-empty.png" />
+			  	<img style="display: none;" class="hostile-with-man" src="assets/images/hostile-withman.png" />
+			  	<img style="display: none;" class="hostile-with-woman" src="assets/images/hostile-withwoman.png" />
+			</div>div>
 		  </div>
 
 		</div>
@@ -68,9 +92,3 @@
 </body>
 </html>
 
-
-
- 
-<div id="droppable" class="ui-widget-header">
-  <p>Drop here</p>
-</div>
